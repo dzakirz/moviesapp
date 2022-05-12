@@ -5,7 +5,6 @@ import './footer.scss';
 import { Link } from 'react-router-dom';
 
 import bg from '../../assets/footer-bg.jpg';
-import logo from '../../assets/tmovie.png';
 
 const Footer = () => {
     return (
@@ -19,15 +18,15 @@ const Footer = () => {
                 <div className="footer__content__menus">
                     <div className="footer__content__menu">
                         <Link to="/">Home</Link>
-                        <a href='https://www.instagram.com/rzdzaky/' target='_blank'>Contact us</a>
-                        <a href='https://www.instagram.com/rzdzaky/' target='_blank'>Term of services</a>
-                        <a href='https://www.instagram.com/rzdzaky/' target='_blank'>About us</a>
+                        <a href='https://www.instagram.com/rzdzaky/' rel='noreferrer' target='_blank'>Contact us</a>
+                        <a href='https://www.instagram.com/rzdzaky/' rel='noreferrer' target='_blank'>Term of services</a>
+                        <a href='https://www.instagram.com/rzdzaky/' rel='noreferrer' target='_blank'>About us</a>
                     </div>
                     <div className="footer__content__menu">
-                        <a href='https://www.instagram.com/rzdzaky/' target='_blank'>Live</a>
-                        <a href='https://www.instagram.com/rzdzaky/' target='_blank'>FAQ</a>
-                        <a href='https://www.instagram.com/rzdzaky/' target='_blank'>Premium</a>
-                        <a href='https://www.instagram.com/rzdzaky/' target='_blank'>Pravacy policy</a>
+                        <a href='https://www.instagram.com/rzdzaky/' rel='noreferrer' target='_blank'>Live</a>
+                        <a href='https://www.instagram.com/rzdzaky/' rel='noreferrer' target='_blank'>FAQ</a>
+                        <a href='https://www.instagram.com/rzdzaky/' rel='noreferrer' target='_blank'>Premium</a>
+                        <a href='https://www.instagram.com/rzdzaky/' rel='noreferrer' target='_blank'>Pravacy policy</a>
                     </div>
                     <div className="footer__content__menu">
                         <Link to="/movie">You must watch</Link>
