@@ -1,6 +1,6 @@
 # Aplikasi Movies App
 
-[Demo Aplikasi](https://moviesapp-dzakirz.herokuapp.com/).
+[Demo Aplikasi](https://moviesapp-dzakirz.netlify.app/).
 
 ## Aplikasi ini dibuat dengan menggunakan Public API TMDB
 
